@@ -1,0 +1,41 @@
+{
+  "kind": "column",
+  "name": "Carousel",
+  "description": "Carousel V2",
+  "author": "Manu.n",
+  "params": [
+    {
+      "name": "img",
+      "displayName": "Image List (url separate by ',')",
+      "type": "string"
+    },
+    {
+      "name": "legend",
+      "displayName": "Legend List (separate by ',')",
+      "type": "string"
+    },
+    {
+      "name": "fit",
+      "displayName": "Fit : cover, fill, contain, scale-down, none",
+      "type": "string"
+    },
+    {
+      "name": "shortcuts",
+      "displayName": "Shortcuts : dot (and/or) thumbnail",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "displayName": "Time (seconds), automatic slide",
+      "type": "number"
+    },
+    {
+      "name": "zoompan",
+      "displayName": "Zoom & Pan 0:Inactif, 1:Actif",
+      "type": "boolean"
+    }
+  ],
+  "result": {
+    "type": "uri"
+  }
+}
